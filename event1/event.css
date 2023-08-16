@@ -1,14 +1,3 @@
-/**
-* Template Name: Mentor - v4.9.1
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -593,12 +582,9 @@ section {
 .breadcrumbs {
     margin-top: 73px;
     text-align: center;
-   
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background: #6853F0;
     padding: 30px 0;
-    /* color: #ffffff!important; */
-    border:5px solid black;
-    border-radius: 20px;
+    color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -620,24 +606,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#course-details h3,#cource-details-tabs a,#cource-details-tabs h3 {
 
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-#course-details p,#cource-details-tabs p{
-    font-family: "Heebo",sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #919294;
-    background-color: #F0F6FF;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
 .about .content h3 {
     font-weight: 600;
     font-size: 26px;
