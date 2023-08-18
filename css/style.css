@@ -49,6 +49,10 @@ h6,
 
 
 /*** Gradient Text & BG ***/
+.container-xxl bg-primary hero-header{
+    margin: 0;
+    padding: -10%;
+}
 .col-lg-8 text-center text-lg-start{
     margin: 10px;
 }
