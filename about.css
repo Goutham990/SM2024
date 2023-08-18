@@ -3001,8 +3001,6 @@ section {
 
 .schedule img {
     height: 60vh;
-}{
-  justify-content: space-evenly;
 }
 
 .col-lg-4{
@@ -3810,4 +3808,8 @@ section {
 
 .schedule img {
     height: 60vh;
+}
+
+.fa-solid{
+    width: 20px;
 }
