@@ -12,6 +12,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
+    background-color: white !important;
 }
 
 a {
@@ -594,10 +595,10 @@ section {
     margin-top: 73px;
     text-align: center;
    
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    /* background: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
     padding: 30px 0;
     /* color: #ffffff!important; */
-    border:5px solid black;
+    /* border:5px solid black; */
     border-radius: 20px;
 }
 
@@ -620,7 +621,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#course-details h3,#cource-details-tabs a,#cource-details-tabs h3 {
+#course-details h3,#cource-details-tabs a,#cource-details-tabs h3,.breadcrumbs h3 {
 
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
     -webkit-background-clip: text;
@@ -634,7 +635,7 @@ section {
     font-weight: 400;
     line-height: 1.5;
     color: #919294;
-    background-color: #F0F6FF;
+    /* background-color: #F0F6FF; */
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
