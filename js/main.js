@@ -16,15 +16,16 @@
     new WOW().init();
 
 
-<<<<<<< HEAD
+
     // Sticky Navbar
     // $(window).scroll(function () {
     //     if ($(this).scrollTop() > 45) {
-=======
     // // Sticky Navbar
     // $(window).scroll(function () {
     //     if ($(this).scrollTop() > 0) {
->>>>>>> 69ef323df6841b48a58abe0897d0ef31d825ed5d
+    // // Sticky Navbar
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 0) {
     //         $('.navbar').addClass('sticky-top shadow-sm');
     //     } else {
     //         $('.navbar').removeClass('sticky-top shadow-sm');
@@ -32,11 +33,13 @@
     // });
 
 
-<<<<<<< HEAD
+
     // Smooth scrolling on the navbar links
-=======
+
     // // Smooth scrolling on the navbar links
->>>>>>> 69ef323df6841b48a58abe0897d0ef31d825ed5d
+
+    // // Smooth scrolling on the navbar links
+
     // $(".navbar-nav a").on('click', function (event) {
     //     if (this.hash !== "") {
     //         event.preventDefault();
