@@ -16,31 +16,41 @@
     new WOW().init();
 
 
+<<<<<<< HEAD
     // Sticky Navbar
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 45) {
-            $('.navbar').addClass('sticky-top shadow-sm');
-        } else {
-            $('.navbar').removeClass('sticky-top shadow-sm');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 45) {
+=======
+    // // Sticky Navbar
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 0) {
+>>>>>>> 69ef323df6841b48a58abe0897d0ef31d825ed5d
+    //         $('.navbar').addClass('sticky-top shadow-sm');
+    //     } else {
+    //         $('.navbar').removeClass('sticky-top shadow-sm');
+    //     }
+    // });
 
 
+<<<<<<< HEAD
     // Smooth scrolling on the navbar links
-    $(".navbar-nav a").on('click', function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
+=======
+    // // Smooth scrolling on the navbar links
+>>>>>>> 69ef323df6841b48a58abe0897d0ef31d825ed5d
+    // $(".navbar-nav a").on('click', function (event) {
+    //     if (this.hash !== "") {
+    //         event.preventDefault();
             
-            $('html, body').animate({
-                scrollTop: $(this.hash).offset().top - 45
-            }, 1500, 'easeInOutExpo');
+    //         $('html, body').animate({
+    //             scrollTop: $(this.hash).offset().top - 45
+    //         }, 1500, 'easeInOutExpo');
             
-            if ($(this).parents('.navbar-nav').length) {
-                $('.navbar-nav .active').removeClass('active');
-                $(this).closest('a').addClass('active');
-            }
-        }
-    });
+    //         if ($(this).parents('.navbar-nav').length) {
+    //             $('.navbar-nav .active').removeClass('active');
+    //             $(this).closest('a').addClass('active');
+    //         }
+    //     }
+    // });
     
     
     // Back to top button

@@ -20,6 +20,10 @@
     visibility: visible;
     opacity: 1;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 
 /*** Heading ***/
@@ -27,11 +31,13 @@ h1,
 h2,
 .fw-bold {
     font-weight: 700 !important;
+    margin-bottom: 10%;
 }
 
 h3,
 h4,
 .fw-semi-bold {
+    margin-bottom: 50%;
     font-weight: 600 !important;
 }
 
@@ -43,6 +49,13 @@ h6,
 
 
 /*** Gradient Text & BG ***/
+.container-xxl bg-primary hero-header{
+    margin: 0;
+    padding: -10%;
+}
+.col-lg-8 text-center text-lg-start{
+    margin: 10px;
+}
 .text-primary-gradient {
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
     -webkit-background-clip: text;
@@ -62,6 +75,10 @@ h6,
 .bg-secondary-gradient {
     background: linear-gradient(to bottom right, var(--secondary), var(--primary));
 }
+.col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp{
+    width: auto;
+    height: auto;
+}
 
 
 /*** Button ***/
@@ -71,6 +88,8 @@ h6,
 
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient {
+    margin-top: 25px;
+    margin-left: 75px;
     position: relative;
     overflow: hidden;
     border: none;
@@ -259,7 +278,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
+    padding: 16rem 6rem 6rem 6rem;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
@@ -442,7 +461,6 @@ h6,
 .container.py-5.px-lg-5
 {
     padding: 0px;
-    /* background-color: black; */
 }
 
 .row.g-5
@@ -451,9 +469,10 @@ h6,
     justify-content: space-around;
 }
 
-.col-md-6.col-lg-3
+.px-6
 {
-    /* width: 30vw; */
+    padding-left: ($spacer * 4) !important;
+    padding-right: ($spacer * 4) !important;
 }
 
 .Address
@@ -464,8 +483,6 @@ h6,
 .Newsletter
 {
     width: 20vw !important;
-    /* padding-left: 2vw; */
-    /* padding-right: 2vw; */
     
 }
 
