@@ -31,11 +31,13 @@ h1,
 h2,
 .fw-bold {
     font-weight: 700 !important;
+    margin-bottom: 10%;
 }
 
 h3,
 h4,
 .fw-semi-bold {
+    margin-bottom: 50%;
     font-weight: 600 !important;
 }
 
@@ -47,6 +49,10 @@ h6,
 
 
 /*** Gradient Text & BG ***/
+.container-xxl bg-primary hero-header{
+    margin: 0;
+    padding: -10%;
+}
 .col-lg-8 text-center text-lg-start{
     margin: 10px;
 }
@@ -82,6 +88,7 @@ h6,
 
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient {
+    margin-top: 25px;
     margin-left: 75px;
     position: relative;
     overflow: hidden;
@@ -271,7 +278,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
+    padding: 16rem 6rem 6rem 6rem;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
