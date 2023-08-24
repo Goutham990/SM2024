@@ -461,7 +461,6 @@ h6,
 .container.py-5.px-lg-5
 {
     padding: 0px;
-    /* background-color: black; */
 }
 
 .row.g-5
@@ -470,9 +469,10 @@ h6,
     justify-content: space-around;
 }
 
-.col-md-6.col-lg-3
+.px-6
 {
-    /* width: 30vw; */
+    padding-left: ($spacer * 4) !important;
+    padding-right: ($spacer * 4) !important;
 }
 
 .Address
@@ -483,8 +483,6 @@ h6,
 .Newsletter
 {
     width: 20vw !important;
-    /* padding-left: 2vw; */
-    /* padding-right: 2vw; */
     
 }
 

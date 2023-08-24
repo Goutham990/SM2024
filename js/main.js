@@ -16,6 +16,13 @@
     new WOW().init();
 
 
+
+    // Sticky Navbar
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 45) {
+    // // Sticky Navbar
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 0) {
     // // Sticky Navbar
     // $(window).scroll(function () {
     //     if ($(this).scrollTop() > 45) {
@@ -26,7 +33,13 @@
     // });
 
 
+
+    // Smooth scrolling on the navbar links
+
     // // Smooth scrolling on the navbar links
+
+    // // Smooth scrolling on the navbar links
+
     // $(".navbar-nav a").on('click', function (event) {
     //     if (this.hash !== "") {
     //         event.preventDefault();
